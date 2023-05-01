@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FlickrBrowser" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryOrange</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkOrange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/textcolorsecondarygrey</item>
+        <item name="android:textColorPrimary">@color/textcolorprimaryblack</item>
+        <item name="android:icon">@color/white</item>
+        <item name="android:windowBackground">@color/primaryLightOrange</item>
+        <item name="android:colorBackgroundFloating">@android:color/transparent</item>
+
+        <!-- accent brand color. -->
+        <item name="colorSecondary">@color/accentBlue</item>
+        <item name="colorSecondaryVariant">@color/accentBlueLight</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.FlickrBrowser.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FlickrBrowser.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FlickrBrowser.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
