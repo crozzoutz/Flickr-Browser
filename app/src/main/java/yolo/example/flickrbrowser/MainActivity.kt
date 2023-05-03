@@ -3,13 +3,12 @@ package yolo.example.flickrbrowser
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.preference.PreferenceManager
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
-import androidx.navigation.ui.AppBarConfiguration
+import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import yolo.example.flickrbrowser.databinding.ActivityMainBinding
 
@@ -19,8 +18,6 @@ class MainActivity : BaseActivity(), RawData.OnDownloadComplete,
     private val TAG = "MainActivity"
 
     private val recyclerViewAdapter = RecyclerViewAdapter(ArrayList())
-
-    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
